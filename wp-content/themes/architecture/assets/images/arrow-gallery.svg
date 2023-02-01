@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53.74" height="53.74" viewBox="0 0 53.74 53.74">
+  <g id="Gruppe_366" transform="translate(-17773.131 -2497.13)">
+    <circle id="Ellipse_163" cx="19" cy="19" r="19" transform="translate(17773.131 2524) rotate(-45)" fill="rgba(0,0,0,0.35)"/>
+    <g id="Ellipse_155" transform="translate(17773.131 2524) rotate(-45)" fill="none" stroke="#FFC300" stroke-width="2">
+      <circle cx="19" cy="19" r="19" stroke="none"/>
+      <circle cx="19" cy="19" r="18" fill="none"/>
+    </g>
+    <line id="Linie_436" x2="6.156" y2="6.864" transform="translate(17798.344 2517.636)" fill="none" stroke="#FFC300" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Linie_437" x1="6.158" y2="5.864" transform="translate(17798.342 2524.5)" fill="none" stroke="#FFC300" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

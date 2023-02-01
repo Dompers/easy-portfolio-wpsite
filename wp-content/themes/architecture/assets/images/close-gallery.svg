@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53.74" height="53.74" viewBox="0 0 53.74 53.74">
+<g id="Gruppe_352" transform="translate(-17815.131 -3046.13)">
+    <circle id="Ellipse_159" cx="19" cy="19" r="19" transform="translate(17815.131 3073) rotate(-45)" fill="rgba(0,0,0,0.4)"/>
+    <g id="Ellipse_160" transform="translate(17815.131 3073) rotate(-45)" fill="none" stroke="#FFC300" stroke-width="2">
+        <circle cx="19" cy="19" r="19" stroke="none"/>
+        <circle cx="19" cy="19" r="18" fill="none"/>
+    </g>
+    <path id="Vereinigungsmenge_4" d="M6.365,6.363,0,12.728,6.365,6.363,0,0,6.365,6.363,12.729,0,6.365,6.363l6.364,6.364Z" transform="translate(17835.342 3066.636)" fill="none" stroke="#FFC300" stroke-linecap="square" stroke-linejoin="round" stroke-width="1"/>
+</g>
+</svg>
+
