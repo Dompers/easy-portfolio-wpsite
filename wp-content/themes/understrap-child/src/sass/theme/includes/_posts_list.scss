@@ -1,0 +1,98 @@
+.site-main-posts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
+    .post {
+        @include box-shadow;
+
+        img {
+            height: 281px;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .entry-content {
+            padding: 15px;
+            text-align: center;
+
+            .category {
+                color: $primary;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: uppercase;
+                margin-bottom: 4px;
+                text-decoration: none;
+                font-family: $secondary_font;
+                &:hover {
+                    color: $secondary_text_color;
+                }
+            }
+
+            .title {
+                color: $text_color;
+                max-width: 285px;
+                margin: 0 auto 10px;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                text-decoration: none;
+                a {
+                    color: inherit;
+                    text-decoration: inherit;
+                    &:hover {
+                        color: $primary_color;
+                    }
+                }
+            }
+
+            .posted-on,
+            .byline {
+                color: $third_text_color;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+                a {
+                    color: $secondary_text_color;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    text-decoration: none;
+                    &:hover {
+                        color: $primary_color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .site-main-posts{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .site-main-posts {
+        .post {
+            img {
+                height: 180px;
+            }
+
+            .entry-content {
+                .title{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+body {
+    color: $text_color;
+    font-family: $primary_font;
+
+    a{
+        &:hover {
+            color: $secondary_text_color;
+        }
+    }
+}

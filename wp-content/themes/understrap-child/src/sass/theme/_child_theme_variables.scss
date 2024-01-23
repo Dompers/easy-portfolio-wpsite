@@ -1,0 +1,15 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/assets/bootstrap5/_variables.scss, paste it here and edit the value.
+
+$primary: #C9A96E;  // Once we've changed the value, we'll also make it the primary brand color.
+$primary_color: $primary;
+$text_color: #171717;
+$secondary_text_color: #666;
+$third_text_color: #B1B1B1;
+$disabled_color: #A2A2A2;
+$border_color: #e5e5e5;
+$box_shadow: 0px 2px 6px rgba(0, 0, 0, 0.10);
+$primary_font: 'PT Serif', serif;
+$secondary_font: 'Hanken Grotesk', sans-serif;
+$third_font: 'Roboto', sans-serif;
